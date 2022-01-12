@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+/*
+Common breakpoints are 
+320px — 480px for mobile devices, 
+481px — 768px for iPads & tablets, 
+769px — 1024px for small screens like laptop, 
+1025px — 1200px for large screens like Desktops, 
+1201px and above for extra large screens like TV.
+*/
+
+:root {
+    /* palette */
+    --primary-main: ;
+    --primary-light: ;
+    --primary-dark: ;
+
+    --secondary-main: ;
+    --secondary-light: ;
+    --secondary-dark: ;
+
+    --background: #3f3f3f;
+
+    --header-color: rgb(37, 37, 37);
+
+    --font-color: #d6d6d6;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--font-color);
+}
+
+.header {
+    width: 100%;
+    background-color: var(--header-color);
+    padding: 1em 2em;
+    box-shadow: 0px 10px 36px -11px rgba(90, 88, 88, 0.4);
+}
+
+.container-main {
+    width: 80%;
+    margin: 0 auto;
+    min-height: 50px;
+    /* border: 2px solid white; */
+}
+
+@media (max-width: 768px) {
+    .container-main {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container-main {
+        width: 95%;
+    }
+}
+
+.grid-container {
+    display: grid;
+    margin: 2rem 0;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 920px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 550px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.card {
+    width: 100%;
+    padding-top: 64.25%;
+    position: relative;
+    border-radius: 6px;
+    /* border: 2px solid yellow; */
+    overflow: hidden;
+    box-shadow: 4px 4px 6px 6px rgba(84, 84, 84, 0.35|);
+}
+
+.card-media,
+.card-content {
+    position: absolute;
+    width: 100%;
+    inset: 0 0 0 0;
+}
+
+.card-media {
+    height: 80%;
+}
+.card-content {
+    top: 80%;
+    height: 100%;
+    background-color: #7e7e7e;
+    color: #fff;
+    transition: transform 350ms ease-in;
+}
+
+.card-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-content h3 {
+    font-size: 1rem;
+    padding: 0 0.5rem;
+    /* border: 1px solid blue; */
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.card-content p {
+    font-size: 0.9rem;
+    padding: 0 0.5em;
+}
+
+.card:hover .card-content {
+    transform: translateY(-60%);
+}
