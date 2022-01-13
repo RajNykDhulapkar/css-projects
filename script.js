@@ -37,8 +37,14 @@ const listOfProjects = [
         description:
             "A mobile device friendly responsive login form with animated switching slider.",
         filePath:
-            "../login-register-forms/responsive-login-registration-form-animated-slider/index.html",
+            "./login-register-forms/responsive-login-registration-form-animated-slider/index.html",
         imgFilePath: "./images/responsive-login-registration-form-animated-slider.gif",
+    },
+    {
+        title: "Animated Sidebar Nav Menu",
+        description: "Animated Sidebar Nav Menu",
+        filePath: "./sidebars/animated-side-bar-menu/index.html",
+        imgFilePath: "./images/animated-sidebar-menu-crop.png",
     },
 ];
 
