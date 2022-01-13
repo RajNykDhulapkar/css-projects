@@ -11,7 +11,7 @@ const listOfProjects = [
         title: "Rolling box animated loader",
         description: "CSS Preloader using css animation. Rolling effect using css keyframes.",
         filePath: "./loading/rolling-box-animated-loader/index.html",
-        imgFilePath: "./images/box-rolling-loader.png",
+        imgFilePath: "./images/box-rolling-loader.gif",
     },
     {
         title: "Simple CSS grid Example",
@@ -21,16 +21,24 @@ const listOfProjects = [
         imgFilePath: "./images/simple-css-grid.png",
     },
     {
+        title: "Animated Login and Sign Up from",
+        description: "Login and Sign Up form with animated slide switch functionality.",
+        filePath: "./login-register-forms/Animated-Login-and-Sign-up/index.html",
+        imgFilePath: "./images/animated-sliding-login-n-register-form.gif",
+    },
+    {
         title: "SVG Text Loading animation",
         description: "CSS keyframes used to animated the stroke ease forwards animated of svg text",
         filePath: "./loading/svg-animated-text-dev-ed/index.html",
         imgFilePath: "./images/svg-animated-text-loader.png",
     },
     {
-        title: "Animated Login and Sign Up from",
-        description: "Login and Sign Up form with animated slide switch functionality.",
-        filePath: "./login-register-forms/Animated-Login-and-Sign-up/index.html",
-        imgFilePath: "./images/animated-sliding-login-n-register-form.png",
+        title: "Responsive login form with slider",
+        description:
+            "A mobile device friendly responsive login form with animated switching slider.",
+        filePath:
+            "../login-register-forms/responsive-login-registration-form-animated-slider/index.html",
+        imgFilePath: "./images/responsive-login-registration-form-animated-slider.gif",
     },
 ];
 
