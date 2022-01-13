@@ -20,6 +20,12 @@ const listOfProjects = [
         filePath: "./grid/learn-css-grid-kevin-powell/index.html",
         imgFilePath: "./images/simple-css-grid.png",
     },
+    {
+        title: "SVG Text Loading animation",
+        description: "CSS keyframes used to animated the stroke ease forwards animated of svg text",
+        filePath: "./loading/svg-animated-text-dev-ed/index.html",
+        imgFilePath: "./images/svg-animated-text-loader.png",
+    },
 ];
 
 // const windowWidth = document.getElementById("windowWidth");
