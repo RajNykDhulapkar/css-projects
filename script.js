@@ -26,6 +26,12 @@ const listOfProjects = [
         filePath: "./loading/svg-animated-text-dev-ed/index.html",
         imgFilePath: "./images/svg-animated-text-loader.png",
     },
+    {
+        title: "Animated Login and Sign Up from",
+        description: "Login and Sign Up form with animated slide switch functionality.",
+        filePath: "./login-register-forms/Animated-Login-and-Sign-up/index.html",
+        imgFilePath: "./images/animated-sliding-login-n-register-form.png",
+    },
 ];
 
 // const windowWidth = document.getElementById("windowWidth");

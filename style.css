@@ -44,6 +44,9 @@ body {
 }
 
 .header {
+    position: sticky;
+    inset: 0 0 auto 0;
+    z-index: 10000;
     width: 100%;
     background-color: var(--header-color);
     padding: 1em 2em;
@@ -52,8 +55,9 @@ body {
 
 .container-main {
     width: 80%;
-    margin: 0 auto;
-    min-height: 50px;
+    margin: 1rem auto;
+    /* min-height: 50px; */
+    overflow-x: auto;
     /* border: 2px solid white; */
 }
 
